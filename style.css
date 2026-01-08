@@ -104,7 +104,7 @@ body{
     width: 251px;
     padding: 15px;
     border: none;
-    background-color: #3aa767af;
+    background-color: #3aa767fb;
     border-radius: 5px;
     display: flex;
     gap: 10px;
@@ -222,4 +222,33 @@ body{
     list-style: none;
     display: flex;
     align-items: center;
+}
+#early-access{
+    width: 90%;
+    max-width: 1260px;
+    margin: 50px auto;
+    padding: 80px;
+    background-color: rgba(255, 228, 196, 0.253);
+    border-radius: 10px;
+}
+#early-access .e-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.e-text h1{
+    padding: 10px;
+    font-weight: bolder;
+    line-height: 50px;
+}
+.e-text p{
+    padding: 10px;
+    text-wrap: unset;
+    font-weight: 300;
+    color: #414141;
+    line-height: 20px;
+}
+.e-text button{
+    margin: 20px 0;
 }
