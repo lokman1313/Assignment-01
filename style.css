@@ -1,0 +1,127 @@
+body{
+    font-family: Inter, sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    width: 90%;
+    max-width: 1600px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+    align-items: center;
+}
+.logo img{
+    padding: 10px;
+   
+}
+.navbar .option-bar{
+    display: flex;
+    gap: 32px;
+    list-style: none;
+    
+}
+.navbar .option-bar a{
+    text-decoration: none;
+    color: rgb(3, 3, 3);
+}
+.nav-btn .btn{
+    padding: 10px;
+    color: #ffffff;
+
+}
+.btn {
+    background-color: #469165fb;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+/* banner section */
+.banner{
+    width: 100%;
+    max-width: 1600px;
+    height: 674px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image:url('./image/hero-bg.png');
+    background-repeat: no-repeat;
+}
+.banner .banner-text{
+    width: 80%;
+    max-width: 1360px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.banner .banner-text h1{
+    font-size: 2.75em;
+    color: #ffffff;
+    font-weight: 600;
+}
+.banner .banner-text h1 #inline-c{
+    color: #16974c;
+}
+.banner .banner-text p{
+    width: 600px;
+    text-align: center;
+    padding: 20px;
+    line-height: 25px;
+    color: #ffffff;
+}
+.banner-up-btn{
+    width: 229;
+    padding: 5px 10px;
+    border-radius: 30px;
+    color: #16974c;
+    border: none;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.banner-up-btn img{
+    width: 15px;
+    padding: 2px;
+}
+.banner-up-btn{
+    width: 229;
+    padding: 5px;
+    border-radius: 30px;
+    color: #16974c;
+    border: none;
+    align-items: center;
+}
+.start-btn{
+    width: 251px;
+    padding: 15px;
+    border: none;
+    background-color: #3aa767af;
+    border-radius: 5px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 1.03em;
+}
+.start-btn img{
+    width: 20px;
+}
+.see-btn{
+    width: 251px;
+    padding: 15px;
+    border: 1px solid white;
+    background:none ;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 1.03em;
+}
+.banner-btn{
+    display: flex;
+    gap: 20px;
+}
