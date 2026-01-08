@@ -38,6 +38,9 @@ body{
     border: none;
     cursor: pointer;
 }
+.btn:hover{
+    background-color: rgb(5, 52, 112);
+}
 /* banner section */
 .banner{
     width: 100%;
@@ -49,6 +52,7 @@ body{
     align-items: center;
     background-image:url('./image/hero-bg.png');
     background-repeat: no-repeat;
+    margin: 0 auto;
 }
 .banner .banner-text{
     width: 80%;
@@ -108,9 +112,13 @@ body{
     align-items: center;
     color: #ffffff;
     font-size: 1.03em;
+    cursor: pointer;
 }
 .start-btn img{
     width: 20px;
+}
+.start-btn:hover{
+    background-color: rgb(5, 52, 112);
 }
 .see-btn{
     width: 251px;
@@ -124,11 +132,60 @@ body{
     gap: 10px;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 .see-btn img{
     width: 20px;
 }
+.see-btn:hover{
+    background-color: rgb(5, 52, 112);
+}
 .banner-btn{
     display: flex;
     gap: 20px;
+}
+/* note section */
+#note{
+    width: 80%;
+    max-width: 1360;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+}
+.note-continar{
+    width: 1280px;
+    display: flex;
+    gap: 24px;
+    padding: 24px;
+}
+.notes{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 250px;
+    padding: 20px;
+    box-shadow: 2px 6px 5px #4141411e ;
+}
+.notes img{
+    background-color: #F95555;
+    border-radius: 50%;
+    padding: 10px;
+}
+.notes p{
+    color: #414141;
+}
+.head-line p{
+    font-size: smaller;
+    color: #414141;
+    line-height: 30px;
+}
+.head-line h1{
+    font-size: 2.5em;
+    line-height: 60px;
 }
