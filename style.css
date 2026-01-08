@@ -25,7 +25,7 @@ body{
 }
 .navbar .option-bar a{
     text-decoration: none;
-    color: rgb(3, 3, 3);
+    color: rgba(3, 3, 3, 0.753);
 }
 .nav-btn .btn{
     padding: 10px;
