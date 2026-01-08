@@ -170,6 +170,7 @@ body{
     width: 300px;
     height: 250px;
     padding: 20px;
+    background-color: #ffffff;
     box-shadow: 2px 6px 5px #4141411e ;
 }
 .notes img{
@@ -188,4 +189,37 @@ body{
 .head-line h1{
     font-size: 2.5em;
     line-height: 60px;
+}
+#second-brein{
+    width: 1260px;
+    margin: 120px auto;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.sol{
+    color: #16974c;
+    line-height: 20px;
+    font-size: 0.85em;
+    padding-bottom: 10px;
+}
+.brain-text h1{
+    line-height: 35px;
+}
+.brain-text .pera{
+    width: 500px;
+    color: #414141;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-wrap: unset;
+}
+.brain-text ul{
+    line-height: 35px;
+    padding-top: 25px;
+}
+.brain-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
 }
