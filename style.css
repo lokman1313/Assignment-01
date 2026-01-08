@@ -64,7 +64,7 @@ body{
     text-align: center;
 }
 .banner .banner-text h1{
-    font-size: 2.75em;
+    font-size: 3em;
     color: #ffffff;
     font-weight: 600;
 }
@@ -72,11 +72,12 @@ body{
     color: #16974c;
 }
 .banner .banner-text p{
-    width: 600px;
+    width:600px; 
+    font-size: 0.95em;
     text-align: center;
-    padding: 20px;
+    margin-top: 20px;
     line-height: 25px;
-    color: #ffffff;
+    color: #ffffff9d;
 }
 .banner-up-btn{
     width: 229;
@@ -156,10 +157,12 @@ body{
     text-align: center;
 }
 .note-continar{
-    width: 1280px;
+    width: 90%;
+    max-width: 1280px;
     display: flex;
     gap: 24px;
     padding: 24px;
+    margin-top: 20px;
 }
 .notes{
     display: flex;
@@ -184,14 +187,17 @@ body{
 .head-line p{
     font-size: smaller;
     color: #414141;
-    line-height: 30px;
 }
 .head-line h1{
+    padding: 30px;
     font-size: 2.5em;
-    line-height: 60px;
+    line-height: 20px;
+    font-weight: bolder;
 }
+/* brain section  */
 #second-brein{
-    width: 1260px;
+    width: 90%;
+    max-width: 1260px;
     margin: 120px auto;
     display: flex;
     gap: 50px;
@@ -223,6 +229,7 @@ body{
     display: flex;
     align-items: center;
 }
+/* early access section  */
 #early-access{
     width: 90%;
     max-width: 1260px;
@@ -251,4 +258,47 @@ body{
 }
 .e-text button{
     margin: 20px 0;
+}
+/* footer section  */
+footer{
+    margin: 0px auto;
+    width: 100%;
+    max-width: 1600px;
+    background-color: #001931;
+}
+.foot{
+    padding: 100px;
+    width: 90%;
+    max-width: 1600px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+    align-items: center;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    width: 200px;
+}
+.social img{
+    width: 20px;
+    padding: 5px;
+}
+.social p{
+    color: #ffffff;
+}
+footer hr{
+    width: 1450px;
+    margin: 0 auto;
+}
+.copy-r{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.copy-r p{
+    color: #ffffff;
 }
