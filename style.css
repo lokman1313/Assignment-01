@@ -120,6 +120,13 @@ body{
     color: #ffffff;
     border-radius: 5px;
     font-size: 1.03em;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.see-btn img{
+    width: 20px;
 }
 .banner-btn{
     display: flex;
