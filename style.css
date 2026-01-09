@@ -148,7 +148,7 @@ body{
 /* note section */
 #note{
     width: 80%;
-    max-width: 1360;
+    max-width: 1360px;
     margin: 50px auto;
     display: flex;
     flex-direction: column;
@@ -197,7 +197,7 @@ body{
 /* brain section  */
 #second-brein{
     width: 90%;
-    max-width: 1260px;
+    max-width: 1360px;
     margin: 120px auto;
     display: flex;
     gap: 50px;
@@ -232,7 +232,7 @@ body{
 /* early access section  */
 #early-access{
     width: 90%;
-    max-width: 1260px;
+    max-width: 1360px;
     margin: 50px auto;
     padding: 80px;
     background-color: rgba(255, 228, 196, 0.253);
